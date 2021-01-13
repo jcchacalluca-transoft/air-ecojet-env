@@ -83,7 +83,8 @@ logging:
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level:  
   # config application
-    com.transoft.completeair.configgeneral: DEBUG
+    # com.transoft.completeair.configgeneral: DEBUG
+    com.transoft.completeair: DEBUG
   # Logger-specific levels.
   loggers:
 
