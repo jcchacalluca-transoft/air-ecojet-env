@@ -72,11 +72,11 @@ spring:
 mail:
   protocol: smtp
   smtp:
-    host: 200.87.177.122
+    host: mailsrv.transoft.bo
     port: 25
   support:
-    username: cas@ecojet.bo
-    password: c45p455 
+    username: ecojet@mail.transoft.bo
+    password: 3coJJ3T 
 # Logging settings.
 logging:
 
