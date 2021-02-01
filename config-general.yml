@@ -84,7 +84,7 @@ logging:
   level:  
   # config application
     # com.transoft.completeair.configgeneral: DEBUG
-    com.transoft.completeair: DEBUG
+    com.transoft.completeair: INFO
   # Logger-specific levels.
   loggers:
 
