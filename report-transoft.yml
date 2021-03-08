@@ -58,7 +58,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 12000
+            timeoutInMilliseconds: 720000
           #semaphore:
             #maxConcurrentRequests: 20
 # Note: import disable mode product and active mode Dev
