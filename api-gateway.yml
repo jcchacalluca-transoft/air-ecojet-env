@@ -11,12 +11,12 @@ logging:
 
   # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
   level: 
-    com.transoft.completeair.apigateway: DEBUG
+    com.transoft.completeair.apigateway: INFO
   # Logger-specific levels.
   loggers:
     # Redirects SQL logs to a separate file
-    org.hibernate.SQL: DEBUG
-    org.springframework.web: DEBUG
+    org.hibernate.SQL: INFO
+    org.springframework.web: INFO
 
 # Define the port where the API gateway server would be running
 server:
