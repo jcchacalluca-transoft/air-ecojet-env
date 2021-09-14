@@ -60,6 +60,16 @@ kieServer:
   password: kieserver,.!
   url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
   containerId: fare-engine-ecojet
+  fare:
+    user: kieserver
+    password: kieserver,.!
+    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    container: fare-engine-ecojet
+  waitingList:
+    user: kieserver
+    password: kieserver,.!
+    url: http://brules.c.transoft.bo:8080/kie-server/services/rest/server
+    container: fare-engine-ecojet
 #Config Eureka
 eureka:
   client:
