@@ -37,7 +37,7 @@ logging:
 # config deploy jkar kie-server
 kie:
   #172.16.0.104 ip public
-  server: http://brules.c.transoft.bo:8090/kie-server/services/rest/server
+  server: http://172.16.20.112:8090/kie-server/services/rest/server
   user: kieserver
   pass: kieserver,.!
   projects:
@@ -58,7 +58,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.120.102:8761/eureka/  #192.168.110.111
+      defaultZone: http://192.168.120.156:8761/eureka/  #192.168.110.111
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -66,4 +66,4 @@ eureka:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.120.102:9999/uaa/api/user  #192.168.110.111
+      userInfoUri: http://192.168.120.156:9999/uaa/api/user  #192.168.110.111

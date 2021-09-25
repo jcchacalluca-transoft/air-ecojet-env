@@ -33,7 +33,7 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: 192.168.120.114
+                host: 192.168.120.149
                 port: 5672
                 username: admin
                 password: admin
@@ -43,7 +43,7 @@ serviceOauth:
   refresh: http://oauth-service/uaa/oauth/token?grant_type=refresh_token&refresh_token=
   logout: http://oauth-service/uaa/api/logout-up
   account: http://oauth-service/uaa/api/account
-  errorOauth: http://172.16.0.202:${server.port} #update ip public 172.16.0.176
+  errorOauth: http://172.16.0.144:${server.port} #update ip public 172.16.0.176
 #spring.mvc.dispatch-options-request=true
 # Define the routes which determine what URL are serviced by what applications.
 # The application/services are defined in the bootstrap.yml file of individual applications
@@ -154,7 +154,7 @@ sales:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.120.102:8761/eureka/  #192.168.109.23
+      defaultZone: http://192.168.120.156:8761/eureka/
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
@@ -170,4 +170,4 @@ security:
     enabled: false
   oauth2:
     resource:
-      userInfoUri: http://192.168.120.102:9999/uaa/api/user #192.168.109.23
+      userInfoUri: http://192.168.120.156:9999/uaa/api/user
