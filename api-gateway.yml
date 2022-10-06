@@ -87,46 +87,36 @@ zuul:
     config-general:
       path: /configg/**
       serviceId: config-general
-      #url: http://192.168.109.26:8083
     flight-control:
       path: /flightc/**
       serviceId: flight-control
-      #url: http://192.168.109.26:8081
     #complete-air: /complui/**
     fare-control:
       path: /farec/**
       serviceId: fare-control
-      #url: http://192.168.109.26:8085
     mrn:
       path: /mrn/**
       serviceId: mrn
-      #url: http://192.168.109.32:8086
     pnr:
       path: /pnr/**
       serviceId: pnr
-      #url: http://192.168.109.32:8087
     sales:
       path: /sales/**
       serviceId: sales
-      #url: http://192.168.109.26:8088
     cargo-control:
       path: /cargo/**
       serviceId: cargo-control
-      #url: http://192.168.109.31:8090
     finance:
       path: /finance/**
       serviceId: finance
-      #url: http://192.168.109.32:8089
     oauth-service:
       #sensitiveHeaders:
       path: /oauth/**
       serviceId: oauth-service
-      #stripPrefix: false	  
-      #url: http://192.168.109.23:9999
+      #stripPrefix: false
     kjar-service:
       path: /kjar/**
       serviceId: kjar-service
-      #url: http://192.168.109.34:8090
     report-transoft:
       path: /report/**
       serviceId: report-transoft
